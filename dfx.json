@@ -1,17 +1,24 @@
 {
   "canisters": {
-    "stablecoin_backend": {
-      "main": "src/stablecoin_backend/main.mo",
+    "Minter": {
+      "main": "src/main.mo",
       "type": "motoko"
     },
-    "stablecoin_frontend": {
-      "dependencies": [
-        "stablecoin_backend"
-      ],
-      "source": [
-        "src/stablecoin_frontend/assets"
-      ],
-      "type": "assets"
+    "Oracle": {
+      "main": "src/Oracle.mo",
+      "type": "motoko"
+    },
+    "QUOTE": {
+      "main": "src/ICRC.mo",
+      "type": "motoko"
+    },
+    "CKBTC": {
+      "main": "src/ICRC.mo",
+      "type": "motoko"
+    },
+    "STATH": {
+      "main": "src/ICRC.mo",
+      "type": "motoko"
     }
   },
   "defaults": {
