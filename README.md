@@ -2,7 +2,7 @@
 
 DollarQuote stablecoin (symbol $USDQ) is the first decentralized algorithmic stablecoin on the Internet Computer Network that is backed by Chain Key Bitcoin (ckBTC) which is a secure form of bitcoin on the Internet Computer network that can be retrieved in a ratio of 1:1 on the bitcoin network by utilising the threshold ECDSA.<br>
 
-## Quote Token Mechanism
+## The Mechanism
 
 The $USDQ token is an ICRC token that is minted by depositing any amount of ckBTC (no minimum amount set for now) into the QuoteMinter Canister and the price equivalent of that amount in $USD is minted and sent to the depositor <br><br>
 
