@@ -1,0 +1,25 @@
+{
+  "canisters": {
+    "stablecoin_backend": {
+      "main": "src/stablecoin_backend/main.mo",
+      "type": "motoko"
+    },
+    "stablecoin_frontend": {
+      "dependencies": [
+        "stablecoin_backend"
+      ],
+      "source": [
+        "src/stablecoin_frontend/assets"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
