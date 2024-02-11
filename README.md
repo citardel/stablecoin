@@ -167,9 +167,9 @@ Or you can deploy the sample provided in the dfx file ,just paste this in your t
 
 currently deployed at 
 
- * [Minter:](#link)
- * [QUOTE:](#link)
- * [STATH:](#link)
+ * [Minter](#link)
+ * [QUOTE](#link)
+ * [STATH](#link)
   
 
   
